@@ -1,50 +1,12 @@
-# Project-1 US Education Data
+# US Education Data
 
-This dataset is designed to bring together multiple facets of U.S. education data into one convenient CSV.
-
-## Contents
-
-states_all_extended.csv: An extended version of states_all.csv; contains detailed enrollment data for race and gender.
+## Objective
+Analyze U.S Education Data for Pre-k to 12th Grade Students to identify trends, co-relations, patterns on state revenues, expenditures, student enrollment count, student performance
 
 
-### Identify Raw Data
-
-A breakdown of students enrolled in schools by school year:
-* GRADES_PK: Number of students in Pre-Kindergarten education.
-* GRADES_4: Number of students in fourth grade.
-* GRADES_8: Number of students in eighth grade.
-* GRADES_12: Number of students in twelfth grade.
-* GRADES_1_8: Number of students in the first through eighth grades.
-* GRADES 9_12: Number of students in the ninth through twelfth grades.
-* GRADES_KG_12: Number of students in Kindergarten through twelfth grade.
-* GRADES_ALL: The count of all students in the state. Comparable to ENROLL in the financial data (which is the U.S. Census     Bureau's estimate for students in the state).
-
-The extended version of states_all contains additional columns that breakdown enrollment by race and gender. For example:
-* Grades_ALL_AS: Number of students whose ethnicity was classified as "Asian".
-* Grades_ALL_ASM: Number of male students whose ethnicity was classified as "Asian".
-* Grades_ALL_ASF: Number of female students whose ethnicity was classified as "Asian".
-* The represented races include AM (American Indian or Alaska Native), AS (Asian), HI (Hispanic/Latino), BL (Black or African American), WH (White), HP (Hawaiian Native/Pacific Islander), and TR (Two or More Races). The represented genders include M (Male) and F (Female).
-
-A breakdown of states by revenue and expenditure:
-* ENROLL: The U.S. Census Bureau's count for students in the state. Should be comparable to GRADES_ALL (which is the NCES's estimate for students in the state).
-
-TOTAL REVENUE: The total amount of revenue for the state.
-* FEDERAL_REVENUE
-* STATE_REVENUE
-* LOCAL_REVENUE
-
-TOTAL_EXPENDITURE: The total expenditure for the state.
-* INSTRUCTION_EXPENDITURE
-* SUPPORT_SERVICES_EXPENDITURE
-* CAPITAL_OUTLAY_EXPENDITURE
-* OTHER_EXPENDITURE
-
-Academic Achievement: 
-A breakdown of student performance as assessed by the corresponding exams (math and reading, grades 4 and 8):
-* AVG_MATH_4_SCORE: The state's average score for fourth graders taking the NAEP math exam.
-* AVG_MATH_8_SCORE: The state's average score for eight graders taking the NAEP math exam.
-* AVG_READING_4_SCORE: The state's average score for fourth graders taking the NAEP reading exam.
-* AVG_READING_8_SCORE: The state's average score for eighth graders taking the NAEP reading exam.
+## Data
+Data is from kaggle.com 
+https://www.kaggle.com/noriuk/us-education-datasets-unification-project
 
 ### Process: 
 * Clear up data
