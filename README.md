@@ -5,8 +5,8 @@ Analyze U.S Education Data for Pre-k to 12th Grade Students to identify trends, 
 
 
 ## Data
-Data is from kaggle.com 
-![alt text](https://www.kaggle.com/noriuk/us-education-datasets-unification-project)
+Data is from www.kaggle.com 
+
 
 ### Process: 
 * Clear up data
