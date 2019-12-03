@@ -6,13 +6,14 @@ Analyze U.S Education Data for Pre-k to 12th Grade Students to identify trends, 
 
 ## Data
 Data is from kaggle.com 
-https://www.kaggle.com/noriuk/us-education-datasets-unification-project
+![alt text](https://www.kaggle.com/noriuk/us-education-datasets-unification-project)
 
 ### Process: 
 * Clear up data
 * Analyze the followings data from 2006 to 2015:
    * Revenue & Expenditure each year and each state
   ![alt text](https://github.com/sipaju2/PROJECT1/blob/master/Data%20Analysis)/2006-2015_Each_State_Total_Revenues_and_Expenditures.png
+  ![alt text](https://github.com/sipaju2/PROJECT1/blob/master/Data%20Analysis/2006-2015_Each_State_Total_Revenues_and_Expenditures.png)
    * Students' enrollments each year
    * How many students' enrollment in each state
    * Which state contributed maximum to the enrollment count change in 2007-2009
